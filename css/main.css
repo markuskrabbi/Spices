@@ -120,3 +120,31 @@ small, .text_small {font-size: 0.667rem;}
 }
 
 /* End Global Styles */
+header, nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo img {
+    width: 8em;
+}
+
+nav img {
+    width: 2em;
+    margin-left: 1em;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-cta {
+    max-width: 600px;
+}
+
+.hero-spice {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
